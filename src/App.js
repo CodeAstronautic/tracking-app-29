@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import TimersDashboard from "./components/Dashboard/TimersDashboard";
-import { Navbar, Container } from "react-bootstrap";
-import Button from "@restart/ui/esm/Button";
+import { Navbar, Container ,Button} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 const App = () => {
