@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import TimersDashboard from "./components/Dashboard/TimersDashboard";
-import { Navbar, Container ,Button} from "react-bootstrap";
+import { Navbar, Container, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -17,7 +18,7 @@ const App = () => {
           Create Task
         </Button>
       </div>
-        <TimersDashboard show={isOpen} setIsOpen={setIsOpen} />
+      <TimersDashboard show={isOpen} setIsOpen={setIsOpen} />
     </Container>
   );
 };
